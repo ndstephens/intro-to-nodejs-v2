@@ -1,5 +1,7 @@
 # Create a CLI Command (program)
 
+- Keep in mind that there are entire Node frameworks to help with building out a CLI (just like there are server and frontend frameworks).
+
 ## Interpreter
 
 ```js
