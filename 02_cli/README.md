@@ -71,3 +71,13 @@ reddit --print
 # Will open that random post in your default browser
 reddit
 ```
+
+---
+
+## Deploy to npm
+
+- Give it a unique "name" field in package.json.
+  - Review other fields as well.
+- Login with `npm login`
+- Enter `npm publish` (make sure you're in the project directory)
+- Your `README.md` file will be the "homepage" for your package on npm

@@ -1,16 +1,13 @@
 {
-  "name": "nodejs-cli",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "ff-reddit",
+  "version": "0.1.0",
+  "description": "First package deployment",
+  "main": "reddit.mjs",
   "bin": {
     "reddit": "./reddit.mjs"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
+  "author": "Nate Stephens",
+  "license": "MIT",
   "dependencies": {
     "node-fetch": "^3.2.10",
     "open": "^8.4.0",
