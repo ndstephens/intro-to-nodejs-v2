@@ -36,22 +36,27 @@
 
 ---
 
-## Install package locally
+## Install package globally
 
-- We must install our own package locally so we can test out the CLI. We could just execute the file with the node runtime, but we want to see the CLI actually work.
+- We must install our own package globally on our machine so we can test out the CLI. We could just execute the file with the node runtime, but we want to see the CLI actually work.
 
 ```sh
 npm install -g .
 ```
 
-- We can simply install with no args (or `.`) which tells npm to install the current director. The `-g` flag means we want to globally install this package vs in a local `node_modules`.
+- We can simply install with no args (or `.`) which tells npm to install the current director. The `-g` flag means we want to globally install this package vs in a local project's `node_modules` folder.
+- Can confirm it's been installed, and its location, with:
+
+```sh
+which reddit
+```
 
 ---
 
 ## Run command
 
 ```sh
-# Will log a random post's Title and Link
+# Will print to the console a random post's Title and Link
 reddit --print
 
 # Will open that random post in your default browser
