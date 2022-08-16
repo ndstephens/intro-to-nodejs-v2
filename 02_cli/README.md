@@ -28,10 +28,11 @@
 
 - `reddit` is the name of the `CLI`.
 - `"./reddit.mjs"` is the path to the entry file for the command's code.
-- Once installed, this package will have its `bin` command installed into your machine's `bin` folder allowing us to use the `reddit` command.
-- All global commands exist in your machine's `bin` directory.
-- The `main` property (in package.json) is used when someone is `importing` your package (using `import` or `require`) into their project's code.
-  - `bin` is used when your package is `installed` and used as a `CLI`.
+- Once installed, this package will have its `bin` command installed into your machine's `bin` folder allowing us to use the `reddit` command globally in the terminal.
+  - All global commands exist in your machine's `bin` directory.
+- The `bin` property (in package.json) is used when your package is used as a `CLI`.
+- The `main` property (in package.json) is used when someone is _`importing`_ your package (using `import` or `require`) into their project's code.
+  - It points to the entry point for your package's code.
 
 ---
 
