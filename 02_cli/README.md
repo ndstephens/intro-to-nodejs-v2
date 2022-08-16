@@ -1,6 +1,13 @@
 # Create a CLI Command (program)
 
+## CLI frameworks
+
 - Keep in mind that there are entire Node frameworks to help with building out a CLI (just like there are server and frontend frameworks).
+- [Commander](https://www.npmjs.com/package/commander) - the defacto standard
+- [oclif](https://www.npmjs.com/package/oclif)
+- [Caporal](https://www.npmjs.com/package/caporal)
+
+---
 
 ## Interpreter
 
